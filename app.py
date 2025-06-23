@@ -3,7 +3,7 @@ from langchain_openai.chat_models import ChatOpenAI
 
 st.title("🦜🔗 Quickstart App")
 
-openai_api_key = st.sidebar.text_input("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", type="password")
+openai_api_key = st.sidebar.text_input("Your OpenAI API Key", type="password")
 
 
 def generate_response(input_text):
